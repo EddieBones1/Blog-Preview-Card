@@ -1,9 +1,8 @@
-# User-specific files
-design/
-assets/
-
-# Markdown Files
+## Markdown Files 
 Thinking.md
 style-guide.md
 README-template.md
 README-Explanation.md
+
+## Specific Folders
+assets/
