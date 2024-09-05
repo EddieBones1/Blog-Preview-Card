@@ -10,64 +10,64 @@
 
 /* The :root selector allows me to declare global variables */
 :root {
-  --Yellow: #f4d04e;
-  --Gray-950: #111111;
-  --Gray-500: #6b6b6b;
+  --Yellow:#f4d04e;
+  --Gray-950:#111111;
+  --Gray-500:#6b6b6b;
   --White:#ffffff;
   --line-height:150%;
   --letter-spacing:0px;
-  /* These pixel values convert to em values */
-  --Font-size-14px: 0.875em;
-  --font-size-16px: 1em;
-  --font-size-24px: 1.5em;
+  /* These font size pixel values will convert to em values */
+  --Font-size-14px:0.875em;
+  --font-size-16px:1em;
+  --font-size-24px:1.5em;
   /*These values 200,150,100,50 are for the spacing that is in the figma files*/
-  --Spacing-200: 1rem;
-  --Spacing-150: 0.75rem;
-  --Spacing-100: 0.5rem;
-  --Spacing-50: 0.25rem;
+  --Spacing-200:1rem;
+  --Spacing-150:0.75rem;
+  --Spacing-100:0.5rem;
+  --Spacing-50:0.25rem;
 }
 
 /* Master Reset for all browsers*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
 body {
-  background-color: var(--Yellow);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  background-color:var(--Yellow);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
 }
 
 .White-Card {
-  background-color: var(--White);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  flex-shrink: 0;
-  padding: var(--Spacing-200);
-  gap: var(--Spacing-200);
-  width: 24rem;
-  border-radius: 1.25rem;
-  border: 0.5rem solid var(--Gray-950);
-  box-shadow: 0.5rem, 0.5rem, 0, 0, #000;
+  background-color:var(--White);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  flex-shrink:0;
+  padding:var(--Spacing-200);
+  gap:var(--Spacing-200);
+  width:24rem;
+  border-radius:1.25rem;
+  border:0.5rem solid var(--Gray-950);
+  box-shadow:0.5rem, 0.5rem, 0, 0, #000;
 }
 
 img {
-  border-radius: 0.625rem;
+  border-radius:0.625rem;
 }
 
 .section-color{
-  background-color: var(--Yellow);
-  border-radius: var(--Spacing-50);
-  padding: var(--Spacing-50), var(--Spacing-150);
+  background-color:var(--Yellow);
+  border-radius:var(--Spacing-50);
+  padding:var(--Spacing-50), var(--Spacing-150);
   width:5.125rem;
-  height: 1.8125rem;
+  height:1.8125rem;
   margin-right:4.0625rem;
   margin-bottom: 0.75rem;
 
@@ -78,63 +78,63 @@ h3 {
   justify-content:center;
   align-items:center;
   font-family:Figtree Medium;
-  font-style: normal;
+  font-style:normal;
   font-weight:800;
-  color: var(--Gray-950);
-  line-height: var(--line-height);
-  font-size: var(--Font-size-14px);
+  color:var(--Gray-950);
+  line-height:var(--line-height);
+  font-size:var(--Font-size-14px);
 
 }
 .section-publication p{
-  font-family: Figtree Medium;
-  font-weight: 500;
-  font-size: 1rem;
-  font-style: normal;
-  line-height: var(--line-height);
+  font-family:Figtree Medium;
+  font-weight:500;
+  font-size:1rem;
+  font-style:normal;
+  line-height:var(--line-height);
 }
 
 h2{
   font-family:Figtree Extra Bold;
-  font-weight: 800;
-  font-size: var(--font-size-24px);
-  margin-bottom: var(--Spacing-150);
+  font-weight:800;
+  font-size:var(--font-size-24px);
+  margin-bottom:var(--Spacing-150);
 
 }
 
 .heading-text p{
-  font-family: Figtree Medium;
-  font-size: var(--font-size-16px);
-  font-weight: 500;
-  line-height: var(--line-height);
+  font-family:Figtree Medium;
+  font-size:var(--font-size-16px);
+  font-weight:500;
+  line-height:var(--line-height);
   color:var(--Gray-500)
 }
 
 .author img{
-  width: 2rem;
-  height: 2rem;
+  width:2rem;
+  height:2rem;
 }
 
 .author p{
-  font-family: Figtree Medium;
-  font-weight: 800;
-  line-height: var(--line-height);
+  font-family:Figtree Medium;
+  font-weight:800;
+  line-height:var(--line-height);
   
 }
 
 .author{
   display:flex;
-  align-items: center;
-  gap: var(--Spacing-150);
+  align-items:center;
+  gap:var(--Spacing-150);
 
 }
 
 
 .attribution {
-  font-size: 11px;
-  position: relative;
-  bottom: -57.283px;
-  right: -39px;
-  align-items: center;
+  font-size:11px;
+  position:relative;
+  bottom:-57.283px;
+  right:-39px;
+  align-items:center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -143,10 +143,10 @@ h2{
 /* Hover Effect for Section Title */
 h2:hover{
   font-family:Figtree Extra Bold;
-  font-weight: 800;
-  color: var(--Yellow);
-  font-size: var(--font-size-24px);
-  margin-bottom: var(--Spacing-150);
+  font-weight:800;
+  color:var(--Yellow);
+  font-size:var(--font-size-24px);
+  margin-bottom:var(--Spacing-150);
 
 }
 
@@ -156,8 +156,8 @@ h2:hover{
 
   body{
 display:flex;
-flex-direction: column;
-padding: 9.75rem 1.5rem 6.625rem 1.5rem;
+flex-direction:column;
+padding:9.75rem 1.5rem 6.625rem 1.5rem;
 justify-content:center;
 align-items: center;
 }
