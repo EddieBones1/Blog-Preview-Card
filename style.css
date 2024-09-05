@@ -54,8 +54,7 @@ body {
   gap:var(--Spacing-200);
   width:24rem;
   border-radius:1.25rem;
-  border:0.5rem solid var(--Gray-950);
-  box-shadow:0.5rem, 0.5rem, 0, 0, #000;
+  box-shadow: 8px 8px 0px rgb(0, 0, 0);    
 }
 
 img {
