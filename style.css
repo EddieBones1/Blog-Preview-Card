@@ -1,13 +1,11 @@
 @font-face {
   font-family: Figtree Extra Bold;
-  src: url('assets\fonts\Figtree-Italic-VariableFont_wght.ttf');
-  font-weight: 800;
+  src: url(fonts/Figtree-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: Figtree Medium;
-  src: url('assets\fonts\Figtree-Italic-VariableFont_wght.ttf');
-  font-weight: 500;
+  src: url(/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 /* The :root selector allows me to declare global variables */
@@ -15,15 +13,13 @@
   --Yellow: #f4d04e;
   --Gray-950: #111111;
   --Gray-500: #6b6b6b;
-  --White: #ffffff;
-  --line-height: 150%;
-  --letter-spacing: 0px;
+  --White:#ffffff;
+  --line-height:150%;
+  --letter-spacing:0px;
   /* These pixel values convert to em values */
-  --14px: 0.875em;
-  --16px: 1em;
-  --24px: 1.5em;
-  --Text-Preset-1: Figtree Extra Bold;
-  --Text-Preset-2: Figtree Medium;
+  --Font-size-14px: 0.875em;
+  --font-size-16px: 1em;
+  --font-size-24px: 1.5em;
   /*These values 200,150,100,50 are for the spacing that is in the figma files*/
   --Spacing-200: 1rem;
   --Spacing-150: 0.75rem;
@@ -66,38 +62,105 @@ img {
   border-radius: 0.625rem;
 }
 
-h3 {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-family:var(--Text-Preset-2);
-  font-weight: 800;
+.section-color{
   background-color: var(--Yellow);
   border-radius: var(--Spacing-50);
   padding: var(--Spacing-50), var(--Spacing-150);
-  gap: var(--Spacing-100);
-  width:max-content;
+  width:5.125rem;
+  height: 1.8125rem;
+  margin-right:4.0625rem;
   margin-bottom: 0.75rem;
-  
+
+
+}
+h3 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Figtree Medium;
+  font-style: normal;
+  font-weight:800;
+  color: var(--Gray-950);
   line-height: var(--line-height);
-  font-size: var(--14px);
+  font-size: var(--Font-size-14px);
 
 }
 .section-publication p{
-  font-family: var(--Text-Preset-2);
+  font-family: Figtree Medium;
+  font-weight: 500;
+  font-size: 1rem;
+  font-style: normal;
   line-height: var(--line-height);
 }
 
 h2{
-  font-family:var(--Text-Preset-1);
+  font-family:Figtree Extra Bold;
   font-weight: 800;
+  font-size: var(--font-size-24px);
   margin-bottom: var(--Spacing-150);
 
 }
+
+.heading-text p{
+  font-family: Figtree Medium;
+  font-size: var(--font-size-16px);
+  font-weight: 500;
+  line-height: var(--line-height);
+  color:var(--Gray-500)
+}
+
+.author img{
+  width: 2rem;
+  height: 2rem;
+}
+
+.author p{
+  font-family: Figtree Medium;
+  font-weight: 800;
+  line-height: var(--line-height);
+  
+}
+
+.author{
+  display:flex;
+  align-items: center;
+  gap: var(--Spacing-150);
+
+}
+
+
 .attribution {
   font-size: 11px;
-  text-align: center;
+  position: relative;
+  bottom: -57.283px;
+  right: -39px;
+  align-items: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Hover Effect for Section Title */
+h2:hover{
+  font-family:Figtree Extra Bold;
+  font-weight: 800;
+  color: var(--Yellow);
+  font-size: var(--font-size-24px);
+  margin-bottom: var(--Spacing-150);
+
+}
+
+/* Mobile Display */
+@media screen and (width <=375px)
+{
+
+  body{
+display:flex;
+flex-direction: column;
+padding: 9.75rem 1.5rem 6.625rem 1.5rem;
+justify-content:center;
+align-items: center;
+}
+
+}
+
