@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Figtree Extra Bold;
+  font-family:Figtree;
   src: url(fonts/Figtree-ExtraBold.ttf);
 }
 
 @font-face {
-  font-family: Figtree Medium;
+  font-family:FigtreeMedium;
   src: url(/fonts/Figtree-VariableFont_wght.ttf);
 }
 
@@ -85,7 +85,7 @@ h3 {
 
 }
 .section-publication p{
-  font-family:Figtree Medium;
+  font-family:FigtreeMedium;
   font-weight:500;
   font-size:1rem;
   font-style:normal;
@@ -93,7 +93,7 @@ h3 {
 }
 
 h2{
-  font-family:Figtree Extra Bold;
+  font-family:Figtree;
   font-weight:800;
   font-size:var(--font-size-24px);
   margin-bottom:var(--Spacing-150);
@@ -101,7 +101,7 @@ h2{
 }
 
 .heading-text p{
-  font-family:Figtree Medium;
+  font-family:FigtreeMedium;
   font-size:var(--font-size-16px);
   font-weight:500;
   line-height:var(--line-height);
@@ -114,7 +114,7 @@ h2{
 }
 
 .author p{
-  font-family:Figtree Medium;
+  font-family:FigtreeMedium;
   font-weight:800;
   line-height:var(--line-height);
   
@@ -141,7 +141,7 @@ h2{
 
 /* Hover Effect for Section Title */
 h2:hover{
-  font-family:Figtree Extra Bold;
+  font-family:Figtree;
   font-weight:800;
   color:var(--Yellow);
   font-size:var(--font-size-24px);
