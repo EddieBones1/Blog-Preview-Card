@@ -25,12 +25,15 @@ Users should be able to:
 
 ### Screenshot
 **Desktop Design**
+
 <img src="design\desktop-design.png"  alt= "Desktop Design" width="50%;"/>
 
 **Active State**
+
 <img src="design\active-states.png" alt= "Active State" width="50%;"/>
 
 **Mobile Design**
+
 <img src="design\mobile-design.png" alt= "Mobile Design" width="25%;"/>
 
 
