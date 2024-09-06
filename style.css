@@ -1,11 +1,11 @@
 @font-face {
   font-family:Figtree;
-  src: url(fonts/Figtree-ExtraBold.ttf);
+  src: url(fonts/Figtree-ExtraBold.ttf) format('ttf');
 }
 
 @font-face {
   font-family:FigtreeMedium;
-  src: url(/fonts/Figtree-VariableFont_wght.ttf);
+  src: url(/fonts/Figtree-VariableFont_wght.ttf) format('ttf');
 }
 
 /* The :root selector allows me to declare global variables */
