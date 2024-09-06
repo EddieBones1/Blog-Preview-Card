@@ -52,13 +52,15 @@ body {
   flex-shrink:0;
   padding:var(--Spacing-200);
   gap:var(--Spacing-200);
-  width:24rem;
+  width:21rem;
   border-radius:1.25rem;
   box-shadow: 10px 10px 0 1px black;   
 }
 
 img {
+  width:100%;
   border-radius:0.625rem;
+ 
 }
 
 .section-color{
@@ -108,6 +110,11 @@ h2{
   color:var(--Gray-500)
 }
 
+.author{
+  display:flex;
+  flex-direction:row
+}
+
 .author img{
   width:2rem;
   height:2rem;
@@ -117,14 +124,9 @@ h2{
   font-family:FigtreeMedium;
   font-weight:800;
   line-height:var(--line-height);
-  
-}
-
-.author{
-  display:flex;
-  align-items:center;
-  gap:var(--Spacing-150);
-
+  text-align: center;
+  margin-top:var(--Spacing-50);
+  margin-left:var(--Spacing-100)
 }
 
 
