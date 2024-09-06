@@ -1,11 +1,11 @@
 @font-face {
-  font-family:Figtree;
-  src: url(fonts/Figtree-ExtraBold.ttf) format('ttf');
+  font-family:'FigtreeBold';
+  src: url('fonts/Figtree-ExtraBold.ttf');
 }
 
 @font-face {
-  font-family:FigtreeMedium;
-  src: url(/fonts/Figtree-VariableFont_wght.ttf) format('ttf');
+  font-family:'FigtreeMedium';
+  src: url('/fonts/Figtree-Medium.ttf');
 }
 
 /* The :root selector allows me to declare global variables */
@@ -78,7 +78,7 @@ h2 {
   display:flex;
   justify-content:center;
   align-items:center;
-  font-family:Figtree;
+  font-family:'FigtreeMedium';
   font-style:normal;
   font-weight:800;
   color:var(--Gray-950);
@@ -87,7 +87,7 @@ h2 {
 
 }
 .section-publication p{
-  font-family:FigtreeMedium;
+  font-family:'FigtreeMedium';
   font-weight:500;
   font-size:1rem;
   font-style:normal;
@@ -95,7 +95,7 @@ h2 {
 }
 
 h1{
-  font-family:Figtree;
+  font-family:'FigtreeBold';
   font-weight:800;
   font-size:var(--font-size-24px);
   margin-bottom:var(--Spacing-150);
@@ -103,7 +103,7 @@ h1{
 }
 
 .heading-text p{
-  font-family:Figtree;
+  font-family:'FigtreeMedium';
   font-size:var(--font-size-16px);
   font-weight:500;
   line-height:var(--line-height);
@@ -121,7 +121,7 @@ h1{
 }
 
 .author p{
-  font-family:Figtree;
+  font-family:'FigtreeMedium';
   font-weight:800;
   line-height:var(--line-height);
   text-align: center;
@@ -143,7 +143,7 @@ h1{
 
 /* Hover Effect for Section Title */
 h1:hover{
-  font-family:Figtree;
+  font-family:'FigtreeBold';
   font-weight:800;
   color:var(--Yellow);
   font-size:var(--font-size-24px);
