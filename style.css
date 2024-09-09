@@ -1,12 +1,6 @@
-@font-face {
-  font-family: "Figtree-Bold";
-  src: url("fonts/Figtree-ExtraBold.ttf");
-}
+/*imported the Google Font, "Figree" */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-@font-face {
-  font-family: "Figtree-Medium";
-  src: url("/fonts/Figtree-Medium.ttf");
-}
 
 /* The :root selector allows me to declare global variables */
 :root {
@@ -41,6 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Figtree", sans-serif;
 }
 
 .container {
@@ -77,7 +72,6 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Figtree-Medium";
   font-weight: 800;
   color: var(--Gray-950);
   line-height: var(--line-height);
@@ -85,21 +79,18 @@ h6 {
 }
 
 .section-publication p {
-  font-family: "Figtree-Medium";
   font-weight: 500;
   font-size: 1rem;
   line-height: var(--line-height);
 }
 
 h1 {
-  font-family: "Figtree-Bold";
   font-weight: 800;
   font-size: var(--font-size-24px);
   margin-bottom: var(--Spacing-150);
 }
 
 .heading-text p {
-  font-family: "Figtree-Medium";
   font-size: var(--font-size-16px);
   font-weight: 500;
   line-height: var(--line-height);
@@ -117,7 +108,6 @@ h1 {
 }
 
 .author p {
-  font-family: "Figtree-Medium";
   font-weight: 800;
   line-height: var(--line-height);
   text-align: center;
@@ -138,7 +128,6 @@ h1 {
 
 /* Hover Effect for Section Title */
 h1:hover {
-  font-family: "Figtree-Bold";
   font-weight: 800;
   color: var(--Yellow);
   font-size: var(--font-size-24px);
